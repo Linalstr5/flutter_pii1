@@ -104,6 +104,18 @@ void main() {
     mahasiswafk = "beban";
   
   print(mahasiswafk);
+
+    //null safety
+  // ? ! late
+  // ? digunakan dia boleh null
+//  String? jurusan;
+// untuk di isi nanti
+  late String jurusanns;
+  
+  jurusanns = "Teknik Informatika";
+ // jurusan = "TI";
+  // ! memaksa untuk di jalankan / yakin ada datanya
+  print(jurusanns.length);
 }
   //function
 hitungNilai() {
