@@ -40,7 +40,7 @@ Future<String> func4(int nilai) {
     
  //  int nilai:
     
-    if(nilai >50){
+    if(nilai >40){
       return "Lulus";
     }else{
       return "Tidak Lulus";
